@@ -18,9 +18,6 @@ The new branch for Mini Pupper2 will be added soon.
 
 Please make sure Mini Pupper can walk first. 
 
-- Download and flash the [pre-built base image file](https://drive.google.com/file/d/18hR9YZVKdxlTCJZxj67LTTbRUu9M8vbU/view?usp=sharing), or 
-- Build the base environment by yourself. 
-
 Step 1: Install the [BSP repo](https://github.com/mangdangroboticsclub/mini_pupper_bsp)
 
 Step 2: Install the [quadruped repo](https://github.com/mangdangroboticsclub/StanfordQuadruped )
@@ -28,7 +25,7 @@ Step 2: Install the [quadruped repo](https://github.com/mangdangroboticsclub/Sta
 
 ## Run on Mini Pupper: 
 
-[![Installation Guide](https://img.youtube.com/vi/oWGw5c0sRwc/0.jpg)](https://www.youtube.com/watch?v=oWGw5c0sRwc)
+[![Installation Guide]
 
 1. Startup Server on Mini Pupper, clone this repo.
 ```
@@ -46,5 +43,6 @@ python -m jupyter jupyternb
 ```
 
 And then, on your PC, edit Kinematics_learn.ipynb, find "HOST = '192.168.1.105'\n", change the ip address to your pupper's ip address.
+
 Run Kinematics_learn.ipynb on your PC jupyter lab
 
