@@ -32,7 +32,11 @@ Step 2: Install the [quadruped repo](https://github.com/mangdangroboticsclub/Sta
 cd ~
 git clone https://github.com/WeiWenxing/kinematics-learn
 cd kinematics-learn
-python JupyterServer.py (if error about permission, you can add sudo, like: sudo python JupyterServer.py)
+python JupyterServer.py 
+```
+If error occur about permission, you can add sudo, like:
+```
+sudo python JupyterServer.py
 ```
 
 2. Start Jupyter on your PC:
